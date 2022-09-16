@@ -10,13 +10,21 @@ export default function Home() {
 		<>
 			<h1 className="title">FPV DRONE</h1>
 			<h2 className="subtitle">. . . Strona w budowie . . .</h2>
-			<p className="paragraph">
-				Nasza firma zajmuje się profesionalnym filmowaniem dronami zarówno FPV
-				jak i tradycyjnymi. <br /> Świadczymy również usługi audiowizualnej
-				obróbki nagranych materiałów w specjalistycznych programach. <br />{" "}
-				Posiadamy pełne uprawnienia do wykonywania lotów bezzałogowymi statkami
-				powietrznymi we wszystkich kategoriach.
-			</p>
+			<div className="container">
+				<p className="paragraph">
+					Nasza firma zajmuje się profesionalnym filmowaniem dronami zarówno FPV
+					jak i tradycyjnymi.
+				</p>
+				<p className="paragraph">
+					Świadczymy również usługi audiowizualnej obróbki nagranych materiałów
+					w specjalistycznych programach.
+				</p>
+				<p className="paragraph">
+					Posiadamy pełne uprawnienia do wykonywania lotów bezzałogowymi
+					statkami powietrznymi we wszystkich kategoriach.
+				</p>
+			</div>
+
 			<section className="home">
 				<Head>
 					<title>Nazwa firmy</title>
