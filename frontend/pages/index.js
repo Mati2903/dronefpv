@@ -47,6 +47,7 @@ export default function Home() {
 						href="https://www.youtube.com/user/aswertyui"
 						className="card-youtube-icon"
 						target="_blank"
+						rel="noreferrer"
 					>
 						<AiFillYoutube />
 					</a>
