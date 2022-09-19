@@ -4,11 +4,16 @@ import fpvimg from "../public/assets/images/benedikt-zinn-8ylosSJMIKQ-unsplash.j
 import { AiFillYoutube } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { MdAlternateEmail, MdPhonelinkRing } from "react-icons/md";
+import { TbDrone } from "react-icons/tb";
 
 export default function Home() {
 	return (
 		<>
-			<h1 className="title">PropWash - FPV Drone Movies</h1>
+			<h1 className="title">
+				PropWash - FPV Drone Movies
+				<br />
+				<TbDrone style={{ fontSize: "5rem", marginTop: "1rem" }} />
+			</h1>
 			<h2 className="subtitle">. . . Strona w budowie . . .</h2>
 			<div className="container">
 				<p className="paragraph">
