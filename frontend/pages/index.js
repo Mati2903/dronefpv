@@ -62,12 +62,12 @@ export default function Home() {
 						<AiFillYoutube />
 					</a>
 				</div>
-				<div className="contact-card">
+				{/* <div className="contact-card">
 					<h3 className="card-title">Sprawdź naszego Facebooka</h3>
 					<a href="" className="card-facebook-icon" target="_blank">
 						<BsFacebook />
 					</a>
-				</div>
+				</div> */}
 				{/* <Image
 				src={fpvimg}
 				alt="drone fpv photo"
