@@ -8,7 +8,7 @@ import { MdAlternateEmail, MdPhonelinkRing } from "react-icons/md";
 export default function Home() {
 	return (
 		<>
-			<h1 className="title">PROPWASH - FPV DRONE MOVIES</h1>
+			<h1 className="title">PropWash - FPV Drone Movies</h1>
 			<h2 className="subtitle">. . . Strona w budowie . . .</h2>
 			<div className="container">
 				<p className="paragraph">
@@ -27,7 +27,7 @@ export default function Home() {
 
 			<section className="home">
 				<Head>
-					<title>Propwash - FPV Drone Movies</title>
+					<title>PropWash - FPV Drone Movies</title>
 					<meta
 						name="description"
 						content="Wykonujemy profesionalne nagrania dronami FPV oraz tradycyjnymi. Oferujemy również profesionalną obróbkę audiowizualną nagrań"
@@ -50,7 +50,9 @@ export default function Home() {
 					</a>
 				</div>
 				<div className="contact-card">
-					<h3 className="card-title">Zobacz nasze ujęcia</h3>
+					<h3 className="card-title">
+						Zobacz nasze <br /> ujęcia
+					</h3>
 					<a
 						href="https://www.youtube.com/user/aswertyui"
 						className="card-youtube-icon"

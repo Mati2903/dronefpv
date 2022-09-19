@@ -72,7 +72,7 @@ body {
 		box-shadow: 0 0 50px 20px rgb(0, 0, 0);
 		// box-shadow: 0 0 50px 5px rgb(0, 152, 179);
 		background-color: rgba(0, 0, 0, 0.75);
-		padding: 1rem;
+		padding: 0.5rem;
 
 		.card-title {
 			font-size: 1.8rem;
@@ -80,15 +80,15 @@ body {
 		.card-phone,
 		.card-email {
 			margin-top: 20%;
-			font-size: 1.4rem;
+			font-size: 1.2rem;
 			text-decoration: none;
 			color: aliceblue;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			gap: 1rem;
+			gap: 0.5rem;
 			svg {
-				font-size: 2.5rem;
+				font-size: 1.8rem;
 			}
 		}
 		.card-youtube-icon {
